@@ -1,0 +1,12 @@
+.home__button{
+    width: 185px;
+    height: 51px;
+    background-color: var(--green-color);
+    border-radius: 8px;
+    border: none;
+    font-size: 17px;
+    margin-top: 60px;
+}
+.home__button a{
+    color: white;
+}
