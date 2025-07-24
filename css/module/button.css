@@ -1,4 +1,4 @@
-.home__button{
+.home__button {
     width: 185px;
     height: 51px;
     background-color: var(--green-color);
@@ -6,7 +6,9 @@
     border: none;
     font-size: 17px;
     margin-top: 60px;
+    outline: none;
 }
-.home__button a{
+
+.home__button a {
     color: white;
 }
