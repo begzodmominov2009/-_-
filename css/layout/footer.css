@@ -1,0 +1,175 @@
+footer {
+    background-color: #424141;
+    padding-top: 43px;
+    padding-bottom: 43px;
+}
+
+.footer__contact {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+}
+
+.footer__menus {
+    gap: 50px;
+    color: white;
+    display: flex;
+    font-size: 18px;
+}
+
+.footer__description {
+    color: gray;
+    font-size: 12px;
+}
+
+.footer__apps {
+    display: flex;
+    gap: 25px;
+}
+
+@media (max-width:820px) {
+    .footer__contact {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .footer__contact img {
+        width: 150px;
+    }
+
+    .footer__description {
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+    .footer__menus {
+        font-size: 13px;
+        gap: 20px;
+    }
+
+    .footer__button {
+        display: none;
+    }
+
+    .footer__apps {
+        gap: 10px;
+    }
+}
+
+@media (max-width:670px) {
+    .footer__contact {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .footer__contact img {
+        width: 150px;
+    }
+
+    .footer__description {
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+    .footer__menus {
+        font-size: 13px;
+        gap: 20px;
+    }
+
+    .footer__button {
+        display: none;
+    }
+
+    .footer__apps {
+        gap: 10px;
+    }
+}
+
+@media (max-width:670px) {
+    .footer__contact {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .footer__contact img {
+        width: 150px;
+    }
+
+    .footer__description {
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+    .footer__menus {
+        font-size: 13px;
+        gap: 20px;
+    }
+
+    .footer__button {
+        display: none;
+    }
+
+    .footer__apps {
+        gap: 10px;
+    }
+}
+
+@media (max-width:444px) {
+    .footer__contact {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .footer__contact img {
+        width: 120px;
+    }
+
+    .footer__description {
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+    .footer__menus {
+        font-size: 12px;
+        gap: 20px;
+    }
+
+    .footer__button {
+        display: none;
+    }
+
+    .footer__apps {
+        gap: 10px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:404px) {
+    .footer__contact {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .footer__contact img {
+        width: 100px;
+    }
+
+    .footer__description {
+        font-size: 9px;
+        white-space: nowrap;
+    }
+
+    .footer__menus {
+        font-size: 11px;
+        gap: 20px;
+    }
+
+    .footer__button {
+        display: none;
+    }
+
+    .footer__apps {
+        gap: 10px;
+        padding-left: 20px;
+    }
+}

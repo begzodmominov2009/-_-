@@ -7,6 +7,7 @@
     font-size: 17px;
     margin-top: 60px;
     outline: none;
+    cursor: pointer;
 }
 
 .home__button a {
@@ -22,7 +23,31 @@
     font-size: 17px;
     margin-top: 60px;
     outline: none;
+    cursor: pointer;
 }
-.register__button a{
+
+.register__button a {
     color: white;
+    transition: 0.5s;
+}
+
+.footer__button {
+    width: 154px;
+    height: 42px;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.footer__button a {
+    color: white;
+}
+
+.footer__button:hover {
+    background-color: white;
+}
+
+.footer__button:hover a {
+    color: black;
 }
