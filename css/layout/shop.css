@@ -5,3 +5,26 @@
     padding-top: 24px;
     line-height: 24px;
 }
+@media (max-width:820px) {
+    .shop__description{
+        padding-top: 15px;
+        line-height: 20px;
+        font-size: 18px;
+    }
+    .shop__title{
+        font-size: 34px;
+    }
+}
+@media (max-width:470px) {
+    .shop__title{
+        font-size: 30px;
+    }
+    .shop__description{
+        font-size: 16px;
+    }
+}
+@media (max-width:400) {
+    .shop__title{
+        font-size: 27px;
+    }
+}

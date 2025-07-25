@@ -6,6 +6,7 @@
     padding-bottom: 186px;
 }
 
+
 .home__title {
     font-size: 60px;
     line-height: 100%;
@@ -127,6 +128,9 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     gap: 40px;
+}
+.about__cards a{
+    color: black;
 }
 
 @media (max-width:820px) {
