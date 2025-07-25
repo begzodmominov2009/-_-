@@ -277,8 +277,11 @@
         font-size: 37px;
     }
 
-    .materials__addition3 {
-        margin-top: 0px;
+    .materials__addition2 {
+        margin-top: 15px;
+    }
+    .materials__addition3{
+        margin-top: 15px;
     }
 
     .materials__card {
