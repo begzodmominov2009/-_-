@@ -265,6 +265,9 @@
     .materials__addition2 {
         margin-top: 0px;
     }
+    #home{
+        background-position: right;
+    }
 }
 
 @media (max-width:710px) {
@@ -280,7 +283,7 @@
     .materials__addition2 {
         margin-top: 15px;
     }
-    .materials__addition3{
+    .materials__addition{
         margin-top: 15px;
     }
 
@@ -307,6 +310,7 @@
     .materilas__description{
         font-size: 37px;
     }
+ 
 }
 
 @media (max-width:450px) {
