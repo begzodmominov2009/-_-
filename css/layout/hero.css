@@ -565,8 +565,8 @@
     margin-bottom: 56px;
     border-radius: 12px;
     padding-top: 45px;
-    padding-left: 35px;
-    padding-right: 45px;
+    padding-left: 25px;
+    padding-right: 35px;
 }
 
 .register__cards {
@@ -606,6 +606,14 @@
         gap: 0px;
         justify-content: center;
     }
+
+    .register__input {
+        width: 630px;
+    }
+
+    .register__coment {
+        width: 630px;
+    }
 }
 
 @media (max-width:710px) {
@@ -626,11 +634,11 @@
     }
 
     .register__input {
-        width: 576px;
+        width: 596px;
     }
 
     .register__coment {
-        width: 576px;
+        width: 596px;
     }
 }
 
@@ -652,11 +660,11 @@
     }
 
     .register__input {
-        width: 556px;
+        width: 570px;
     }
 
     .register__coment {
-        width: 556px;
+        width: 570px;
     }
 }
 
@@ -678,11 +686,11 @@
     }
 
     .register__input {
-        width: 536px;
+        width: 550px;
     }
 
     .register__coment {
-        width: 536px;
+        width: 550px;
     }
 }
 
@@ -704,11 +712,11 @@
     }
 
     .register__input {
-        width: 516px;
+        width: 526px;
     }
 
     .register__coment {
-        width: 516px;
+        width: 526px;
     }
 }
 
@@ -730,11 +738,11 @@
     }
 
     .register__input {
-        width: 476px;
+        width: 486px;
     }
 
     .register__coment {
-        width: 476px;
+        width: 486px;
     }
 }
 
@@ -756,11 +764,11 @@
     }
 
     .register__input {
-        width: 426px;
+        width: 440px;
     }
 
     .register__coment {
-        width: 426px;
+        width: 440px;
     }
 }
 
@@ -782,12 +790,12 @@
     }
 
     .register__input {
-        width: 386px;
+        width: 400px;
         height: 52px;
     }
 
     .register__coment {
-        width: 386px;
+        width: 400px;
         height: 152;
     }
 }
@@ -814,12 +822,12 @@
     }
 
     .register__input {
-        width: 356px;
+        width: 370px;
         height: 52px;
     }
 
     .register__coment {
-        width: 356px;
+        width: 370px;
         height: 152;
     }
 }
@@ -846,12 +854,12 @@
     }
 
     .register__input {
-        width: 326px;
+        width: 396px;
         height: 45px;
     }
 
     .register__coment {
-        width: 326px;
+        width: 356px;
         height: 142;
     }
 }
@@ -874,8 +882,8 @@
     }
 
     .register__card {
-        width: 350px;
-        padding-left: 30px;
+        width: 390px;
+        padding-left: 20px;
     }
 
     .register__button {
@@ -883,12 +891,54 @@
     }
 
     .register__input {
-        width: 296px;
+        width: 346px;
         height: 42px;
     }
 
     .register__coment {
-        width: 296px;
+        width: 346px;
+        height: 132;
+    }
+
+    .register__description3 {
+        font-size: 12px;
+        padding-left: 40px;
+    }
+}
+
+@media (max-width:404px) {
+    .register__title {
+        font-size: 24px;
+    }
+
+    .register__description {
+        font-size: 17px;
+        padding-top: 10px;
+        line-height: 28px;
+    }
+
+    .register__description2 {
+        font-size: 14px;
+        padding-top: 5px;
+        line-height: 20px;
+    }
+
+    .register__card {
+        width: 370px;
+        padding-left: 20px;
+    }
+
+    .register__button {
+        display: none;
+    }
+
+    .register__input {
+        width: 326px;
+        height: 42px;
+    }
+
+    .register__coment {
+        width: 326px;
         height: 132;
     }
 
@@ -1095,7 +1145,8 @@
     .contact__info {
         font-size: 15px;
     }
-    .contact__info img{
+
+    .contact__info img {
         width: 25px;
     }
 }
@@ -1121,7 +1172,8 @@
     .contact__info {
         font-size: 15px;
     }
-    .contact__info img{
+
+    .contact__info img {
         width: 20px;
     }
 }
@@ -1147,7 +1199,8 @@
     .contact__info {
         font-size: 13px;
     }
-    .contact__info img{
+
+    .contact__info img {
         width: 20px;
     }
 }
