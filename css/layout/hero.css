@@ -614,6 +614,9 @@
     .register__coment {
         width: 630px;
     }
+    .register__description3{
+        padding-left: 200px;
+    }
 }
 
 @media (max-width:710px) {
@@ -639,6 +642,9 @@
 
     .register__coment {
         width: 596px;
+    }
+    .register__description3{
+        padding-left: 180px;
     }
 }
 
@@ -666,6 +672,9 @@
     .register__coment {
         width: 570px;
     }
+    .register__description3{
+        padding-left: 170px;
+    }
 }
 
 @media (max-width:640px) {
@@ -691,6 +700,9 @@
 
     .register__coment {
         width: 550px;
+    }
+    .register__description3{
+        padding-left: 150px;
     }
 }
 
@@ -718,6 +730,9 @@
     .register__coment {
         width: 526px;
     }
+    .register__description3{
+        padding-left: 140px;
+    }
 }
 
 @media (max-width:600px) {
@@ -744,6 +759,9 @@
     .register__coment {
         width: 486px;
     }
+    .register__description3{
+        padding-left: 110px;
+    }
 }
 
 @media (max-width:560px) {
@@ -769,6 +787,9 @@
 
     .register__coment {
         width: 440px;
+    }
+    .register__description3{
+        padding-left: 80px;
     }
 }
 
@@ -797,6 +818,9 @@
     .register__coment {
         width: 400px;
         height: 152;
+    }
+    .register__description3{
+        padding-left: 60px;
     }
 }
 
@@ -829,6 +853,10 @@
     .register__coment {
         width: 370px;
         height: 152;
+    }
+    .register__description3{
+        padding-left: 55px;
+        font-size: 15px;
     }
 }
 
@@ -902,7 +930,7 @@
 
     .register__description3 {
         font-size: 12px;
-        padding-left: 40px;
+        padding-left: 70px;
     }
 }
 
@@ -944,7 +972,7 @@
 
     .register__description3 {
         font-size: 12px;
-        padding-left: 40px;
+        padding-left: 55px;
     }
 }
 
