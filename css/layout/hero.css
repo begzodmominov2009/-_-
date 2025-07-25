@@ -484,10 +484,16 @@
     .static__bold{
         font-size: 55px;
     }
+    .static__description{
+        line-height: 28px;
+    }
 }
 @media (max-width:380px) {
     .static__card{
         padding-left: 100px;
+    }
+    .static__title{
+        font-size: 25px;
     }
     .static__bold{
         font-size: 50px;
